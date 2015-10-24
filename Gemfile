@@ -7,10 +7,13 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-
 gem 'pg'
 
+gem 'devise_token_auth'
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'omniauth'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
