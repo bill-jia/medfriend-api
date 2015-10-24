@@ -21,7 +21,7 @@ class MedicationsController < ApplicationController
     @medication = Medication.new(medication_params)
 
     if @medication.save
-      render json: @medication, status: :created, location: @medication
+      head :no_content
     else
       render json: @medication.errors, status: :unprocessable_entity
     end

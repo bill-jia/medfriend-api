@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+meds = Medication.create([{name: "Adderall", description: "For ADHD", open_alert: true, product_id: 1, openinterval: 24, reminder_on: 1}, {name: "Some pregnancy prevention thing", description: "Remember to take this", product_id: 2, openinterval: 24, reminder_on: 1}])
